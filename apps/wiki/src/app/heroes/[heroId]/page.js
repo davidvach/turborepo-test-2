@@ -1,6 +1,6 @@
 import { allHeroes } from "../data";
 
-export const runtime = "edge";
+export const runtime = "static";
 
 export async function generateStaticParams() {
     return allHeroes.map((hero) => ({
