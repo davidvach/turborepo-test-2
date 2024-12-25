@@ -24,7 +24,7 @@ const HeroesPage = () => {
         <span>
             <a href={`/${basePath}`} className="text-link-white">Heroes</a> &gt; {heroName}
         </span>
-    ) : "Heroes";
+    ) : "Heroess";
 
     const renderSelectedTab = () => {
         switch (selectedTab.url) {
